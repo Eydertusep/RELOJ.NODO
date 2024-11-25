@@ -1,0 +1,28 @@
+body{
+  background-color: antiquewhite;
+  background-image: url(reloj_transparente.png);
+  background-repeat: no-repeat;
+  background-position:  right bottom;
+}
+.titulo{
+  text-align: center;
+  color: red;
+  font-family: "Flavors", cursive;
+  font-weight: 1000;
+  font-style: normal
+}
+/* Hacemos que cuando le pasamos el maus se ponga en azulita */
+.titulo:hover{
+  color: blue;
+}
+
+.clock{
+  display: block;
+  margin: auto;
+}
+
+.partes{
+  display: inline;
+  color: brown;
+  position: center;
+}
